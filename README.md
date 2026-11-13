@@ -1,4 +1,4 @@
-# OpenTelemetrySample
+# OpenTelemetry Sample
 
 An observability sample using **OpenTelemetry** in an **ASP.NET Core Web API on .NET 11**. It demonstrates how to correlate HTTP requests, calls to external services, and database operations through distributed tracing and structured logging.
 
