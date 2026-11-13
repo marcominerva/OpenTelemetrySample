@@ -12,6 +12,8 @@ using TinyHelpers.Extensions;
 using WeatherForecast.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Configuration.AddJsonFile("appsettings.local.json", optional: true, reloadOnChange: true);
+
 ConfigureOpenTelemetry(builder);
 
 // Add services to the container.
